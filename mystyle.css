@@ -1,0 +1,221 @@
+
+
+.banner-img {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    width: 400px;
+    transform: scale(1.2) translateX(-50px);
+    padding: 0;
+    margin-top: -10px;
+   
+  }
+ 
+
+
+  
+.game{
+
+  padding: 10px;
+  height: 170px;
+  margin-top: -10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  box-shadow: 2px 2px 10px black;
+  text-align: center;
+}
+.my_heading h1{
+  font-size: 32px;
+  font-weight: 900;
+  font-style: oblique;
+  color: white;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 30px black;
+}
+
+
+.sectiontitle{
+  color: white;
+}
+
+.one_third{
+  box-shadow: 2px 2px 10px black;
+}
+
+
+.one_quarter figure{
+  box-shadow: 2px 2px 10px black;
+  color: rgb(199, 196, 196);
+}
+
+
+
+.game p{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(199, 196, 196);
+ letter-spacing: 1px;
+}
+.mineg{
+  box-shadow: 2px 2px 30px black;
+  padding: 10px;
+}
+
+.logoss li a img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+
+}
+body {
+  scroll-behavior: smooth;
+}
+
+
+#animations{
+  background:rgba(0, 0, 0, 0.234);
+}
+.overlayy{
+
+}
+
+.overlayy img{
+height: 180px;
+width: 300px;
+box-shadow: 2px 2px 10px black;
+object-fit: fill;
+}
+
+.overlayy-main{
+  background: rgba(0, 0, 0, 0.359);
+}
+
+
+.main-emotes{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -70px;
+  justify-content: center;
+}
+.emote{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px;
+ box-shadow: 2px 2px 10px black;
+}
+.emote img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________________ */
+
+
+
+
+@media screen and (max-width:992px){
+
+  .banner-img{
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    width: 200px;
+  }
+  #pageintro article .heading{ 
+     font-size: 40px; 
+     width: 400px;
+    }
+    .game p{
+      font-size: 14px;
+      line-height: 13px;
+    }
+    
+    .main-emotes{
+      display: flex;
+      flex-wrap: wrap;
+      width: auto;
+     
+    }
+
+}
+
+@media screen and (max-width:870px){
+ 
+  
+}
+
+@media screen and (max-width:618px){
+  .banner-img {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    width: 400px;
+    transform: scale(1.4) translateX(-10px);
+    padding: 0;
+   
+  }	
+  #pageintro article .heading{ 
+    font-size: 30px; 
+    width: 300px;
+   }
+   #pageintro article p{ 
+    font-size: 15px; 
+    width: 200px;
+   }
+   #pageintro footer .btn{
+   
+    font-size: 10px;
+
+   }
+   .game p{
+    font-size: 17px;
+    line-height: 15px;
+  }
+
+}
+
+
+@media screen and (max-width:500px){
+  #pageintro {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+.banner-img {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 300px;
+  transform: scale(1) translateX(0px);
+  padding: 0;
+ margin-bottom: 110px;
+}
+#pageintro article .heading{ 
+  font-size: 25px; 
+  width: auto;
+  margin-left: auto;
+ }
+
+#pageintro{padding:100px 0 100px;display: flex;  justify-content: center; }
+/* 400px => 200px for #introblocks negative margin */
+
+
+#pageintro article, #pageintro article p{  display:block; max-width:75%; margin:auto ; text-align:center; align-items: center;}
+
+}
