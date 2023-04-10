@@ -207,7 +207,7 @@ object-fit: fill;
  margin-bottom: 110px;
 }
 #pageintro article .heading{ 
-  font-size: 25px; 
+  font-size: 35px; 
   width: auto;
   margin-left: auto;
  }
@@ -216,6 +216,6 @@ object-fit: fill;
 /* 400px => 200px for #introblocks negative margin */
 
 
-#pageintro article, #pageintro article p{  display:block; max-width:75%; margin:auto ; text-align:center; align-items: center;}
+#pageintro article, #pageintro article p{  display:block; max-width:75%; margin:auto ; text-align:center; align-items: center; font-size: 11px; font: 100;}
 
 }
